@@ -3,6 +3,8 @@
   text-align:center;
 }
 
+
+
 p{
   text-align:center;
 }
@@ -51,6 +53,14 @@ iframe{
 .button{
 margin: 0 auto;
 }
-footer {
-  text-align:right;
+.comment{
+  border: 2px solid #ffe556;
+  border-radius: 5px;
+}
+
+
+
+/*モバイル版ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+@media(max-width:600px){
+
 }
