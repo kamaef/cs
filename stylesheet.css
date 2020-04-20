@@ -58,9 +58,28 @@ margin: 0 auto;
   border-radius: 5px;
 }
 
-
-
+/*PC版ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+@media(min-width:600px){
+.mb{
+display: none;
+}
+}
 /*モバイル版ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 @media(max-width:600px){
 
+.button{
+  text-align:center;
+}
+.grid{
+  wide:auto;
+  text-align:center;
+}
+
+.pc{
+  display: none;
+}
+img{
+  width:90%;
+  text-align:center;
+}
 }
