@@ -65,6 +65,14 @@ margin: 0 auto;
   border-radius: 5px;
 }
 
+.otazune p{
+  width:auto;
+  text-align: left;
+  margin:0,20%;
+}
+
+
+
 /*PC版ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 @media(min-width:600px){
 .mb{
