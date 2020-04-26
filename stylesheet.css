@@ -25,6 +25,10 @@ iframe{
   margin: 0 auto;
 }
 
+img{
+  width:300px;
+}
+
 .grid{
   display: grid;
   gap:26px;
