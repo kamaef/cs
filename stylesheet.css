@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
 .title {
   color: #02ccba;
   text-align:center;
@@ -29,6 +35,20 @@ img{
   width:300px;
 
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header-list{
+  text-align: right;
+  background-color: #02ccba;
+}
+
 
 .grid{
   display: grid;
@@ -81,21 +101,19 @@ margin: 0 auto;
 }
 
 
-
-
-
-/*PC版
- width:80%;
+.footer{
+  text-align: right;
+  background-color: #02ccba;
 }
 
 
-
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+/*PC版ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 @media(min-width:600px){
-.mb{
-display: none;
-}
-}
+
+   .mb{
+     display: none;
+   }
+ }
 /*モバイル版ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 @media(max-width:600px){
 
