@@ -26,15 +26,22 @@
 
     <h2>おうちでできる、じょうほうのページです。</h2>
 
+        <div class="button"><a href="2.html">２年生はここをクリック</a></div>
         <div class="button"><a href="3.html">３年生はここをクリック</a></div>
         <div class="button"><a href="aiueo.html">ローマ字のよみかた</a></div>
-        <div class="button"><a href="41.html">４年生はここをクリック</a></div>
+        <div class="button"><a><input type="button" value="４月のページへ" onclick="gate();"></div></a>
+        <div class="button"><a><input type="button" value="４星のページへ" onclick="gate();"></div></a>
+        <div class="button"><a href="41.html">４年生の作品</a></div>
         <div class="button"><a href="56.html">５・６年生はここをクリック</a></div>
         <div class="button"><a href="minna1.html">みんなの作品</a></div>
-        <div class="button"><a href="manual.html">ビスケットのやり方</a></div>
-        <div class="button"><a href="https://ds.ed-cl.com/discovery/ClearCache.wayf?entityID=https%3A%2F%2Fed-cl.com%2Fshibboleth-sp">学びポケット</a></div
 
+        <div class="button">
+       　 <a href="https://classroom.google.com/h">グーグルクラスルーム</a>
+        </div>
 
+        <div class="button">
+
+        </div>
 
   </body>
 
@@ -42,14 +49,21 @@
 
           <ul>
 
-            <li><a href="https://www.viscuit.com/">ビスケットについて</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSefoo3zZnlZRVBOf7p6P-XoVNQezn02ZqrD9o29GBbEW64cpQ/viewform?usp=sf_link">アンケート</a></li>
+            <li><a href="https://www.viscuit.com/">ビスケット（外部リンク）</a></li>
+            <li><a href="manual.html">ビスケットのやり方</a></li>
+            <li><a href="https://ds.ed-cl.com/discovery/ClearCache.wayf?entityID=https%3A%2F%2Fed-cl.com%2Fshibboleth-sp">学びポケット</a></li>
             <li><a href="contact.html">おたずね</a></li>
 
           </ul>
       </div>
 
 
+      <script type="text/javascript">
+         function gate() {
+            var UserInput = prompt("パスワードを入力して下さい:","");
+            location.href = UserInput + ".html";
+         }
+      </script>
 
 
 </html>
